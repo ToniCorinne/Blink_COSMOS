@@ -1,0 +1,598 @@
+2016/01/27 15:33:09.127  INFO: Processing target definition in file 'C:/Users/toni.klopfenstein/Desktop/data/blink/cosmos/config/targets/COSMOS/target.txt'
+2016/01/27 15:33:09.129  INFO: COSMOS Version: 3.7.1
+2016/01/27 15:33:09.130  INFO: Processing CmdTlmServer configuration in file: C:/Users/toni.klopfenstein/Desktop/data/blink/cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2016/01/27 15:33:09.130  INFO: Processing CmdTlmServer configuration in file: C:/Users/toni.klopfenstein/Desktop/data/blink/cosmos/config/targets/BLINK/cmd_tlm_server.txt
+2016/01/27 15:33:09.132  INFO: Processing CmdTlmServer configuration in file: C:/Users/toni.klopfenstein/Desktop/data/blink/cosmos/config/targets/COSMOS/cmd_tlm_server.txt
+2016/01/27 15:33:09.134  INFO: Marshal file does not exist: C:/Users/toni.klopfenstein/Desktop/data/blink/cosmos/outputs/tmp/marshal_b8fdc28ff0c1066c6a37b428683f1b05.bin
+2016/01/27 15:33:09.204  INFO: Creating thread for interface BLINKINT
+2016/01/27 15:33:09.204  INFO: Creating thread for interface COSMOSINT
+2016/01/27 15:33:09.205  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2016/01/27 15:33:09.209  INFO: Starting packet reading for BLINKINT
+2016/01/27 15:33:09.209  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:09.209  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:09.210  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:09.210  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2016/01/27 15:33:09.210  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2016/01/27 15:33:09.211  INFO: Starting packet reading for COSMOSINT
+2016/01/27 15:33:09.211  INFO: Connecting to COSMOSINT...
+2016/01/27 15:33:09.211  INFO: COSMOSINT Connection Success
+2016/01/27 15:33:09.221  INFO: PREIDENTIFIED_ROUTER Connection Success
+2016/01/27 15:33:09.224  INFO: Log File Opened : C:/Users/toni.klopfenstein/Desktop/data/blink/cosmos/outputs/logs/2016_01_27_15_33_09_tlm.bin
+2016/01/27 15:33:14.265  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:14.265  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:14.265  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:19.265  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:19.265  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:19.265  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:24.266  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:24.266  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:24.266  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:29.266  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:29.266  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:29.266  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:34.267  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:34.267  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:34.267  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:39.267  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:39.267  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:39.267  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:44.268  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:44.268  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:44.268  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:49.268  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:49.269  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:49.269  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:54.270  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:54.270  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:54.270  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:33:59.270  INFO: Connecting to BLINKINT...
+2016/01/27 15:33:59.270  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:33:59.270  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:04.271  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:04.271  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:04.271  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:09.271  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:09.271  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:09.271  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:14.272  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:14.272  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:14.273  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:19.273  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:19.273  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:19.273  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:24.274  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:24.274  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:24.274  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:29.274  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:29.274  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:29.274  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:34.275  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:34.275  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:34.275  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:39.275  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:39.275  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:39.275  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:44.276  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:44.277  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:44.277  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:49.277  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:49.277  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:49.277  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:54.278  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:54.278  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:54.278  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:34:55.482  INFO: User disconnecting interface BLINKINT
+2016/01/27 15:34:55.482  INFO: Killing thread for interface BLINKINT
+2016/01/27 15:34:55.485  INFO: Stopped packet reading for BLINKINT
+2016/01/27 15:34:55.492  INFO: Disconnected from interface BLINKINT
+2016/01/27 15:34:58.782  INFO: User connecting interface BLINKINT
+2016/01/27 15:34:58.782  INFO: Creating thread for interface BLINKINT
+2016/01/27 15:34:58.783  INFO: Starting packet reading for BLINKINT
+2016/01/27 15:34:58.783  INFO: Connecting to BLINKINT...
+2016/01/27 15:34:58.784  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:34:58.784  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:03.786  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:03.786  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:03.786  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:08.786  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:08.786  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:08.786  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:13.787  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:13.787  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:13.787  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:18.787  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:18.787  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:18.787  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:23.788  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:23.788  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:23.788  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:28.788  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:28.788  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:28.788  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:33.789  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:33.789  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:33.789  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:38.789  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:38.789  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:38.789  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:43.790  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:43.790  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:43.790  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:48.790  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:48.790  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:48.790  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:53.791  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:53.791  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:53.791  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:35:58.791  INFO: Connecting to BLINKINT...
+2016/01/27 15:35:58.791  ERROR: BLINKINT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2016/01/27 15:35:58.791  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/win32_serial_driver.rb:57:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/io/serial_driver.rb:42:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/interfaces/serial_interface.rb:62:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:243:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:67:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.2.0/gems/cosmos-3.7.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:65:in `block in start'
+2016/01/27 15:36:01.582  INFO: Log File Closed : C:/Users/toni.klopfenstein/Desktop/data/blink/cosmos/outputs/logs/2016_01_27_15_33_09_tlm.bin
+2016/01/27 15:36:01.603  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2016/01/27 15:36:01.603  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2016/01/27 15:36:01.603  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2016/01/27 15:36:01.684  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2016/01/27 15:36:01.694  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2016/01/27 15:36:01.694  INFO: Killing thread for interface BLINKINT
+2016/01/27 15:36:01.702  INFO: Stopped packet reading for BLINKINT
+2016/01/27 15:36:01.704  INFO: Disconnected from interface BLINKINT
+2016/01/27 15:36:01.704  INFO: Killing thread for interface COSMOSINT
+2016/01/27 15:36:01.704  INFO: Clean disconnect from COSMOSINT (returned nil)
+2016/01/27 15:36:01.704  INFO: Connection Lost for COSMOSINT
+2016/01/27 15:36:01.704  INFO: Stopped packet reading for COSMOSINT
+2016/01/27 15:36:01.714  INFO: Disconnected from interface COSMOSINT
