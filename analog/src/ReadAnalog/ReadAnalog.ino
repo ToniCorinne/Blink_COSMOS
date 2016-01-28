@@ -14,28 +14,19 @@ struct analogVal
   byte length;
   byte id;
   byte pinID;
-  byte reading;
+  int reading;
 };
 
-//struct voltageVal
-//{
-//  byte length;
-//  byte id;
-//  byte translation;
-//};
 
 analogVal analogInput;
-//voltageVal translatedVoltage;
 
 int analogPin;
 
 void setup() {
   analogInput.id = 1;
   analogInput.pinID=1;
-  analogInput.reading = 1024;
+  analogInput.reading = 1023;
   
- // translatedVoltage.id = 2;
-  //translatedVoltage.translation = 5.0;
   //Initialize serial connection at 9600bps
   Serial.begin(9600);
 }
@@ -44,11 +35,10 @@ void loop() {
   //Determine analog pin to read from COSMOS input
   while (Serial.available()){
     analogInput.pinID = Serial.read();
-    analogPin = (int) analogInput.pinID;
+    analogPin = analogInput.pinID;
   }
 
  analogInput.reading = analogRead(analogPin);
-// translatedVoltage.translation = analogInput.reading*(5.0/1023.0);
  
  sendData();
   
@@ -56,9 +46,7 @@ void loop() {
 
 void sendData(){
   analogInput.length = sizeof(analogInput);
- // translatedVoltage.length = sizeof(translatedVoltage);
   writeData((const char*)&analogInput, sizeof(analogInput));
-  //writeData((const char*)&translatedVoltage, sizeof(translatedVoltage));
 }
 
 void writeData(const char* pkt, byte size){
