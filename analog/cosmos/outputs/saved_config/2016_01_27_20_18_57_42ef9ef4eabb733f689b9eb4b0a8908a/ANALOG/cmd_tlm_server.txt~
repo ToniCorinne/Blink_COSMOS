@@ -1,0 +1,2 @@
+INTERFACE ANALOGINT serial_interface.rb com9 com9 9600 NONE 1 10.0 nil LENGTH 0 8 0 1
+  TARGET ANALOG

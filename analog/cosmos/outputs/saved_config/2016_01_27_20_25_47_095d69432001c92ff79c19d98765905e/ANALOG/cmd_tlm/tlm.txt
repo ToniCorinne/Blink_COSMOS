@@ -1,0 +1,5 @@
+TELEMETRY analog AnalogValue BIG_ENDIAN "Analog Voltage In"
+	APPEND_ITEM length 32 UINT "Packet Length"
+	APPEND_ID_ITEM analogID 32 UINT 100 "Packet ID for COSMOS identification"
+	APPEND_ITEM readAnalogPin 32 INT "Current analog pin"
+	APPEND_ITEM analogReading 32 INT "Current analog reading"
