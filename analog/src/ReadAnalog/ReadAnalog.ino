@@ -8,23 +8,32 @@
   Modified Toni Klopfenstein
   SparkFun Electronics
   2016
+
+  Based off of David Holthouser's COSMOS Blink demo: 
+  https://bitbucket.org/dholshouser/alagna/wiki/HowTo
 */
+
+//Create structure for the COSMOS commands/telemetry
 struct analogVal
 {
-  byte msgSize;
-  byte id;
-  byte pinID;
-  byte reading;
-  byte cmdsReceived;
-  byte cmdsAccepted;
+  byte msgSize; //Packet length for COSMOS (COSMOS item 'length')
+  byte id; //Command Identifier for COSMOS (COSMOS item id)
+  byte pinID; //ATMega328 pin to read (COSMOS item 'readAnalogPin')
+  byte reading; //Analog reading (COSMOS item 'analogReading')
+  byte cmdsReceived; //Number of commands received from COSMOS (COSMOS item 'cmdsSent')
+  byte cmdsAccepted; //Number of commands actually used from COSMOS (COSMOS item 'cmdsAccepted')
 };
 
 
+//Initialize instance of command/telemetry structure
 analogVal analogInput;
 
+//Create variable to store pin selection from COSMOS
 int analogPin;
 
 void setup() {
+
+  //Set initial values for structure
   analogInput.id = 1;
   analogInput.pinID=4;
   analogInput.reading = 0;
@@ -38,6 +47,7 @@ void setup() {
 void loop() {
   //Determine analog pin to read from COSMOS input
   bool cmd = false;
+  
   while (Serial.available()){
     cmd = true;
     analogInput.pinID = Serial.read();
@@ -50,14 +60,17 @@ void loop() {
     analogInput.cmdsAccepted++;
   }
 
+//Take analog reading
  analogInput.reading = analogRead(analogPin);
- 
+
+ //Send analog reading and current configuration back to COSMOS
  sendData();
   
 }
 
 void sendData(){
   analogInput.msgSize = sizeof(analogInput);
+  //Write all variables back to the structure
   writeData((const char*)&analogInput, sizeof(analogInput));
 }
 
