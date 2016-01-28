@@ -1,3 +1,2 @@
 COMMAND analog readAnalogPin BIG_ENDIAN "Read the analog input"
-	APPEND_PARAMETER readAnalogPin 8 INT 0 6 1 "Analog pin to read"
-	APPEND_PARAMETER analogReading 8 INT 0 1023 1023 "Analog Reading"
+	APPEND_PARAMETER readAnalogPin 8 UINT 0 19 15 "Analog pin to read"
